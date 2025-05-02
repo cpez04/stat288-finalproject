@@ -1,0 +1,57 @@
+// ------------------------------------
+// 🇨🇺 1. Define Cuba boundary
+// ------------------------------------
+var cuba = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017')
+            .filter(ee.Filter.eq('country_na', 'Cuba'));
+
+Map.centerObject(cuba, 6);
+Map.addLayer(cuba, {}, 'Cuba');
+
+// ------------------------------------
+// 🛣️ 2. Load GRIP roads (North America) and filter to Cuba
+// ------------------------------------
+var grip_roads = ee.FeatureCollection('projects/sat-io/open-datasets/GRIP4/North-America')
+                    .filterBounds(cuba);
+
+// Optional: visualize road features
+Map.addLayer(grip_roads, {color: 'blue'}, 'GRIP Roads');
+
+// ------------------------------------
+// 🧱 3. Add constant property to each road for rasterization
+// ------------------------------------
+var roads_with_flag = grip_roads.map(function(feature) {
+  return feature.set({'presence': 1});
+});
+
+// ------------------------------------
+// 🧮 4. Rasterize road features
+// ------------------------------------
+var road_raster = roads_with_flag.reduceToImage({
+  properties: ['presence'],
+  reducer: ee.Reducer.first()
+}).clip(cuba);
+
+// ------------------------------------
+// 🧪 5. Apply 500m kernel convolution to estimate density
+// ------------------------------------
+var kernel = ee.Kernel.square({radius: 250, units: 'meters'});
+var road_density = road_raster.convolve(kernel);
+
+// ------------------------------------
+// 🎨 6. Visualize road density layer
+// ------------------------------------
+Map.addLayer(road_density, {min: 0, max: 20, palette: ['white', 'red']}, 'Road Density');
+
+// ------------------------------------
+// 💾 7. Export to Google Drive (GeoTIFF)
+// ------------------------------------
+Export.image.toDrive({
+  image: road_density,
+  description: 'Cuba_RoadDensity_2024',
+  folder: 'EarthEngineExports',
+  fileNamePrefix: 'cuba_road_density_2024',
+  region: cuba.geometry(),
+  scale: 500,
+  crs: 'EPSG:4326',
+  maxPixels: 1e13
+});

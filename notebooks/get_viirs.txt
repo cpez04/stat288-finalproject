@@ -1,0 +1,43 @@
+// ------------------------------
+// 🌍 1. Define Cuba region
+// ------------------------------
+var cuba = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017')
+            .filter(ee.Filter.eq('country_na', 'Cuba'));
+
+Map.centerObject(cuba, 6);
+Map.addLayer(cuba, {}, 'Cuba');
+
+// ------------------------------
+// 💡 2. Load VIIRS Monthly VCMSLCFG
+// ------------------------------
+var viirs = ee.ImageCollection("NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG")
+              .filterDate('2024-01-01', '2025-01-01')
+              .select('avg_rad');
+
+// Compute annual average for 2024
+var viirs_2024 = viirs.mean().clip(cuba);
+
+// ------------------------------
+// 🎨 3. Visualization
+// ------------------------------
+var visParams = {
+  min: 0,
+  max: 60,
+  palette: ['black', 'orange', 'yellow', 'white']
+};
+
+Map.addLayer(viirs_2024, visParams, 'VIIRS 2024 (mean)');
+
+// ------------------------------
+// 💾 4. Export to Google Drive (GeoTIFF)
+// ------------------------------
+Export.image.toDrive({
+  image: viirs_2024,
+  description: 'Cuba_VIIRS2024',
+  folder: 'EarthEngineExports',
+  fileNamePrefix: 'cuba_viirs_2024',
+  region: cuba.geometry(),
+  scale: 500,  // ~500m resolution
+  crs: 'EPSG:4326',
+  maxPixels: 1e13
+});

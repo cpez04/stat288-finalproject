@@ -1,0 +1,27 @@
+var cuba = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017')
+            .filter(ee.Filter.eq('country_na', 'Cuba'));
+
+
+// Load MODIS NDVI
+var ndvi = ee.ImageCollection('MODIS/061/MOD13A2')
+             .filterDate('2024-01-01', '2024-12-31')
+             .select('NDVI')
+             .map(function(img) { return img.multiply(0.0001); });  // scale factor
+
+// Mean NDVI over the year
+var ndvi_2024 = ndvi.mean().clip(cuba);
+
+// Visualize
+Map.addLayer(ndvi_2024, {min: 0, max: 0.8, palette: ['beige', 'green']}, 'NDVI 2024');
+
+// Export to Drive
+Export.image.toDrive({
+  image: ndvi_2024,
+  description: 'Cuba_NDVI_2024',
+  folder: 'EarthEngineExports',
+  fileNamePrefix: 'cuba_ndvi_2024',
+  region: cuba.geometry(),
+  scale: 500,
+  crs: 'EPSG:4326',
+  maxPixels: 1e13
+});
