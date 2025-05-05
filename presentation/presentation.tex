@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning, arrows.meta, fit}
 
 % Title info
-\title{Bayesian Latent Variable Model of Economic Activity in Cuba}
+\title{Inferring Cuba's Hidden Economy: A Bayesian Latent Variable Model}
 \author{Christopher M. Perez}
 \date{May 6, 2025}
 
@@ -38,108 +38,131 @@
 
 % MOTIVATION & CONTEXT
 \begin{frame}{Motivation}
-\begin{itemize}
-  \item Reliable economic data for Cuba is scarce and disputed.
-  \item Traditional indicators (e.g., GDP) are not consistently reported.
-  \item Can we infer economic activity using satellite imagery and open data?
-\end{itemize}
+  \begin{itemize}
+    \item Cuba's economic indicators are poorly reported or missing.
+    \item International institutions lack consistent ground truth.
+    \item Can satellite proxies and open data fill the gap?
+  \end{itemize}
 \end{frame}
 
+  
 \begin{frame}{Research Question}
-\begin{block}{Goal}
-Estimate a latent index of economic activity across Cuba using spatial proxies.
-\end{block}
-\pause
-\begin{itemize}
-  \item Combine nightlights, NDVI, and road density data
-  \item Use a Bayesian model to infer unobserved economic activity
-\end{itemize}
-\end{frame}
-
+  \begin{block}{Goal}
+  Estimate spatial economic activity using observable data and a principled statistical model.
+  \end{block}
+  \pause
+  \begin{itemize}
+    \item Leverage nightlights, NDVI, and road density.
+    \item Use Bayesian inference to estimate a latent variable $z_i$ per cell.
+  \end{itemize}
+  \end{frame}
+  
 % DATA SOURCES
 \begin{frame}{Data Sources}
 \begin{itemize}
-    \item \textbf{Nighttime Lights (VIIRS)}: Proxy for infrastructure \& development.
-    \item \textbf{NDVI}: Measures vegetation ``greenness."
-  \item \textbf{Road Density}: Infrastructure connectivity.
+    \item \textbf{Nighttime Lights (VIIRS)}: Urbanization and infrastructure.
+    \item \textbf{NDVI}: Vegetation intensity.
+  \item \textbf{Road Density}: Accessiblity and development.
 \end{itemize}
 \pause
-All proxies standardized and aligned to 500m grid. Water masked out.
+All proxies standardized and aligned to 500m grid. Water masked. 2024.
 \end{frame}
 
 % MODEL OVERVIEW
-\begin{frame}{Bayesian Hierarchical Model}
-\begin{itemize}
-  \item Latent economic activity $z_i$ per grid cell
-  \item Observed proxies $x_{i,k} \sim \mathcal{N}(\beta_k z_i, \sigma_k^2)$
-  \item Fixed $\beta_{\text{lights}} = 1$ for identifiability
-  \item Spatial prior on $z$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Graphical Model}
+\begin{frame}{Bayesian Latent Variable Model}
+  \begin{itemize}
+    \item Latent index $z_i$ per cell, measuring economic activity.
+    \item Observation: $x_{i,k} \sim \mathcal{N}(\beta_k z_i, \sigma_k^2)$.
+    \item Fixed $\beta_{\text{lights}} = 1$ for identifiability.
+    \item Spatial smoothing via ICAR prior.
+  \end{itemize}
+  \end{frame}
+  
+\begin{frame}{Bayesian Latent Variable Model}
 \centering
 \includegraphics[width=0.8\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/plate.png}
 \end{frame}
 
 % POSTERIOR RESULTS
 \begin{frame}{Posterior Results: Cuba (15km Grid)}
-\begin{itemize}
-  \item Posterior mean of $z_i$ shown below:
-\end{itemize}
-\centering
-\includegraphics[width=0.6\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png}
+  \centering
+  \includegraphics[width=0.7\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png}
+  \begin{itemize}
+    \item High activity in Havana and other urban centers.
+    \item Sparse regions have low $z$.
+  \end{itemize}
 \end{frame}
 
-\begin{frame}{Uncertainty Estimates}
+\begin{frame}{Posterior Uncertainty}
+\centering
+\includegraphics[width=0.6\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png}
 \begin{itemize}
   \item Posterior standard deviation is low ($\approx$ 0.04--0.06)
   \item Higher uncertainty in urban areas like Havana
 \end{itemize}
-\centering
-\includegraphics[width=0.6\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png}
+
 \end{frame}
 
 % COEFFICIENTS & DIAGNOSTICS
 \begin{frame}{Model Coefficients}
 \centering
-\begin{itemize}
-  \item $\beta_{\text{NDVI}} \approx 0.14$ (weakly positive)
-  \item $\beta_{\text{roads}} \approx 2.29$ (strong positive)
-  \item $\sigma$ values show road is low-noise; NDVI is high-noise
-\end{itemize}
 \includegraphics[width=0.7\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png}
+\begin{itemize}
+  \item $\beta_{\text{NDVI}} \approx 0.14$ (weakly positive).
+  \item $\beta_{\text{roads}} \approx 2.29$ (strong positive).
+  \item $\sigma$ values show road is low-noise; NDVI is high-noise.
+\end{itemize}
 \end{frame}
 
 % MULTI-RESOLUTION
-\begin{frame}{Multi-Resolution Analysis}
-\begin{itemize}
-  \item Refit model at 5 km, 10 km, 20 km grids
-  \item Observe stable coefficients but varied uncertainty
-  \item $\beta_{\text{NDVI}}$ flips sign across resolutions
-\end{itemize}
+\begin{frame}{Multi-Resolution Overview}
+  \begin{itemize}
+    \item Question: How does resolution affect our estimates?
+    \item Fit model at 5km, 10km, 20km blocks.
+    \item Compare variance, posterior uncertainty, and coefficients.
+  \end{itemize}
+  \end{frame}
+  
+\begin{frame}{Resolution Comparison: Maps}
+    \includegraphics[width=\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png}
 \end{frame}
 
-\begin{frame}{Resolution Comparison: Maps}
-\includegraphics[width=\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png}
+
+\begin{frame}{Resolution Comparison: Trace Plots}
+    \includegraphics[width=\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png}
 \end{frame}
+
+
+  \begin{frame}{Multi-Resolution Results Summary}
+    \begin{itemize}
+      \item $\beta_{\text{NDVI}}$ flips from negative to positive as resolution increases
+      \item $\beta_{\text{roads}}$ declines: 4.44 \textrightarrow{} 3.06
+      \item Posterior variance in $z$ increases with block size
+      \item Larger blocks allow more deviation between neighboring cells (smaller $\tau$)
+    \end{itemize}
+    \end{frame}
+    
+    
 
 \begin{frame}{Zoom-In: Greater Havana and Camagüey}
 \includegraphics[width=\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png}
+\begin{itemize}
+  \item Coarser resolution increases uncertainty per cell
+  \item Urban vs. rural differences emerge clearly
+\end{itemize}
 \end{frame}
 
 
 % CONCLUSION
 \begin{frame}{Conclusion and Future Work}
-\begin{itemize}
-  \item Nightlights + roads = best proxies for economic activity in Cuba
-  \item Bayesian model provides uncertainty-aware estimates
-  \item Limitations: No ground-truth calibration, constant coefficients
-  \item Immediate Next Step: Validate model on Dominican Republic
-  \item Future: Add time dimension
-\end{itemize}
-\end{frame}
-
+  \begin{itemize}
+    \item Satellite proxies capture meaningful patterns in $z_i$.
+    \item Bayesian model provides uncertainty quantification.
+    \item Immediate Next Step: Cross-validate approach on Dominican Republic.
+    \item Future: Add time dynamics and explore spatially varying $\beta_k$.
+  \end{itemize}
+  \end{frame}
+  
 % thank you slide
 \begin{frame}{Thank You!}
   \centering
