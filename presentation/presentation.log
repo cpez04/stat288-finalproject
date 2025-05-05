@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  5 MAY 2025 03:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  5 MAY 2025 08:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,18 +853,28 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 [8
 
 ]
+</Users/chrisperez/Desktop/stat288-finalproject/images/eda_maps.png, id=278, 570.2103pt x 1003.8303pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/eda_maps.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/eda_maps.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/eda_maps.png  used on input line 75.
+(pdftex.def)             Requested size: 136.91603pt x 241.03142pt.
+
+Overfull \vbox (33.97087pt too high) detected at line 75
+ []
+
+
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
-]
-</Users/chrisperez/Desktop/stat288-finalproject/images/plate.png, id=307, 851.18pt x 445.665pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png  used on input line 84.
-(pdftex.def)             Requested size: 273.83728pt x 143.37733pt.
+ </Users/chrisperez/Desktop/stat288-finalproject/images/eda_maps.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/eda_correlations.png, id=307, 414.1071pt x 362.7954pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/eda_correlations.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/eda_correlations.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/eda_correlations.png  used on input line 86.
+(pdftex.def)             Requested size: 205.37926pt x 179.93579pt.
 
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
@@ -872,25 +882,19 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 
 [10
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/plate.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png, id=335, 681.5061pt x 426.393pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png  used on input line 94.
-(pdftex.def)             Requested size: 239.60567pt x 149.90991pt.
-
+ </Users/chrisperez/Desktop/stat288-finalproject/images/eda_correlations.png>]
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [11
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png, id=363, 685.8423pt x 425.6703pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png  used on input line 104.
-(pdftex.def)             Requested size: 205.37926pt x 127.46825pt.
+]
+</Users/chrisperez/Desktop/stat288-finalproject/images/plate.png, id=365, 851.18pt x 445.665pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/plate.png  used on input line 103.
+(pdftex.def)             Requested size: 273.83728pt x 143.37733pt.
 
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
@@ -898,12 +902,12 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 
 [12
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png, id=392, 686.565pt x 491.436pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png  used on input line 115.
-(pdftex.def)             Requested size: 239.60567pt x 171.50276pt.
+ </Users/chrisperez/Desktop/stat288-finalproject/images/plate.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png, id=394, 681.5061pt x 426.393pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png  used on input line 113.
+(pdftex.def)             Requested size: 239.60567pt x 149.90991pt.
 
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
@@ -911,19 +915,25 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 
 [13
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>]
+ </Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png, id=423, 685.8423pt x 425.6703pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png  used on input line 123.
+(pdftex.def)             Requested size: 205.37926pt x 127.46825pt.
+
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [14
 
-]
-</Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png, id=447, 1076.1003pt x 320.8788pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png  used on input line 128.
-(pdftex.def)             Requested size: 342.2953pt x 102.06638pt.
+ </Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png, id=451, 686.565pt x 491.436pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png  used on input line 134.
+(pdftex.def)             Requested size: 239.60567pt x 171.50276pt.
 
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
@@ -931,36 +941,32 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 
 [15
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png, id=475, 1719.42375pt x 591.20876pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png  used on input line 133.
-(pdftex.def)             Requested size: 342.2953pt x 117.68936pt.
-
+ </Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>]
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [16
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 143.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
+]
+</Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png, id=506, 1076.1003pt x 320.8788pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png  used on input line 147.
+(pdftex.def)             Requested size: 342.2953pt x 102.06638pt.
+
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [17
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-</Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png, id=530, 2442.12375pt x 629.35126pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png  used on input line 153.
-(pdftex.def)             Requested size: 342.2953pt x 88.2046pt.
+ </Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png, id=534, 1719.42375pt x 591.20876pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png  used on input line 152.
+(pdftex.def)             Requested size: 342.2953pt x 117.68936pt.
 
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
@@ -968,26 +974,50 @@ Overfull \hbox (63.76392pt too wide) has occurred while \output is active
 
 [18
 
- </Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png (PNG copy)>]
+ </Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 162.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [19
 
-]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+</Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png, id=589, 2442.12375pt x 629.35126pt>
+File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png Graphic file (type png)
+<use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png>
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png  used on input line 172.
+(pdftex.def)             Requested size: 342.2953pt x 88.2046pt.
+
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [20
 
-]
+ </Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png (PNG copy)>]
 Overfull \hbox (63.76392pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [21
+
+]
+Overfull \hbox (63.76392pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+]
+Overfull \hbox (63.76392pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
 
 ]
 \tf@nav=\write6
@@ -1004,18 +1034,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25498 strings out of 476025
- 521777 string characters out of 5790017
+ 25529 strings out of 476025
+ 522883 string characters out of 5790017
  1861388 words of memory out of 5000000
- 45379 multiletter control sequences out of 15000+600000
- 520339 words of font info for 60 fonts, out of 8000000 for 9000
+ 45401 multiletter control sequences out of 15000+600000
+ 521985 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,443b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on presentation.pdf (21 pages, 1354664 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on presentation.pdf (23 pages, 1515444 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
- 603 compressed objects within 7 object streams
- 43 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 764 PDF objects out of 1000 (max. 8388607)
+ 659 compressed objects within 7 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
