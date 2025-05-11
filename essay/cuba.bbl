@@ -1,0 +1,419 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{gelman2006prior}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{fullhash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{bibnamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authorbibnamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authornamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authorfullhash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bayesian Analysis}
+      \field{number}{3}
+      \field{title}{Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{515\bibrangedash 534}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1214/06-BA117A
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/06-BA117A
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/06-BA117A
+      \endverb
+    \endentry
+    \entry{steele2017poverty}{article}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=429c060ee57ec213bfc473e65849e5ce}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Jessica\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e79163eac27d7e5e1c6842875b9f5838}{%
+           family={Sundsøy},
+           familyi={S\bibinitperiod},
+           given={Pål\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c338cd690fa876760119be586ae705b8}{%
+           family={Pezzulo},
+           familyi={P\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a61885ac01f6b73fe6dbbb201bbff3e}{%
+           family={Alegana},
+           familyi={A\bibinitperiod},
+           given={Victor\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdba5244d98867c1fe06e2f726ea1080}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Tomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9843359a5181746f01315345c9945d84}{%
+           family={Blumenstock},
+           familyi={B\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3433b61c7a73064348d67fe75811de91}{%
+           family={Bjelland},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=095f2bff5a569c8a659f80c644bb67c1}{%
+           family={Engø-Monsen},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={Kenth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e5276a09e5b94bbc6b688c6507bf1ad}{%
+           family={Montjoye},
+           familyi={M\bibinitperiod},
+           given={Yves-Alexandre},
+           giveni={Y\bibinithyphendelim A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ee064760e18ea9ae22fd8d12fd0cb670}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Asif\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8a2f0f47419afda7c2961ae1d366ac}{%
+           family={Hadiuzzaman},
+           familyi={H\bibinitperiod},
+           given={Khandoker\bibnamedelima Nazmul},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d122c926f0096fe7908b644991b5a04}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58c3517d35480467f99cd44637fdf1c7}{%
+           family={Wetter},
+           familyi={W\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74438a101caea6ec34867c145dc30811}{%
+           family={Tatem},
+           familyi={T\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=157baebbd2cffd4e12482572350a5360}{%
+           family={Bengtsson},
+           familyi={B\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3f032b997f50a0de312522357530439}
+      \strng{fullhash}{0d9cc462603526052299eb939eaabf78}
+      \strng{bibnamehash}{0d9cc462603526052299eb939eaabf78}
+      \strng{authorbibnamehash}{0d9cc462603526052299eb939eaabf78}
+      \strng{authornamehash}{f3f032b997f50a0de312522357530439}
+      \strng{authorfullhash}{0d9cc462603526052299eb939eaabf78}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Society Interface}
+      \field{number}{127}
+      \field{title}{Mapping poverty using mobile phone and satellite data}
+      \field{volume}{14}
+      \field{year}{2017}
+      \field{pages}{20160690}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsif.2016.0690
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332562/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332562/
+      \endverb
+    \endentry
+    \entry{worldbankcuba}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cuba | Data}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/country/cuba
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/country/cuba
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{gelman2006prior}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{fullhash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{bibnamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authorbibnamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authornamehash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \strng{authorfullhash}{1e1eb60e3b6e222217bf8e9b24070b28}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bayesian Analysis}
+      \field{number}{3}
+      \field{title}{Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{515\bibrangedash 534}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1214/06-BA117A
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/06-BA117A
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/06-BA117A
+      \endverb
+    \endentry
+    \entry{steele2017poverty}{article}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=429c060ee57ec213bfc473e65849e5ce}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Jessica\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e79163eac27d7e5e1c6842875b9f5838}{%
+           family={Sundsøy},
+           familyi={S\bibinitperiod},
+           given={Pål\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c338cd690fa876760119be586ae705b8}{%
+           family={Pezzulo},
+           familyi={P\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a61885ac01f6b73fe6dbbb201bbff3e}{%
+           family={Alegana},
+           familyi={A\bibinitperiod},
+           given={Victor\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdba5244d98867c1fe06e2f726ea1080}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Tomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9843359a5181746f01315345c9945d84}{%
+           family={Blumenstock},
+           familyi={B\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3433b61c7a73064348d67fe75811de91}{%
+           family={Bjelland},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=095f2bff5a569c8a659f80c644bb67c1}{%
+           family={Engø-Monsen},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={Kenth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e5276a09e5b94bbc6b688c6507bf1ad}{%
+           family={Montjoye},
+           familyi={M\bibinitperiod},
+           given={Yves-Alexandre},
+           giveni={Y\bibinithyphendelim A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ee064760e18ea9ae22fd8d12fd0cb670}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Asif\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8a2f0f47419afda7c2961ae1d366ac}{%
+           family={Hadiuzzaman},
+           familyi={H\bibinitperiod},
+           given={Khandoker\bibnamedelima Nazmul},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d122c926f0096fe7908b644991b5a04}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58c3517d35480467f99cd44637fdf1c7}{%
+           family={Wetter},
+           familyi={W\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74438a101caea6ec34867c145dc30811}{%
+           family={Tatem},
+           familyi={T\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=157baebbd2cffd4e12482572350a5360}{%
+           family={Bengtsson},
+           familyi={B\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3f032b997f50a0de312522357530439}
+      \strng{fullhash}{0d9cc462603526052299eb939eaabf78}
+      \strng{bibnamehash}{0d9cc462603526052299eb939eaabf78}
+      \strng{authorbibnamehash}{0d9cc462603526052299eb939eaabf78}
+      \strng{authornamehash}{f3f032b997f50a0de312522357530439}
+      \strng{authorfullhash}{0d9cc462603526052299eb939eaabf78}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Society Interface}
+      \field{number}{127}
+      \field{title}{Mapping poverty using mobile phone and satellite data}
+      \field{volume}{14}
+      \field{year}{2017}
+      \field{pages}{20160690}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsif.2016.0690
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332562/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332562/
+      \endverb
+    \endentry
+    \entry{worldbankcuba}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cuba | Data}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/country/cuba
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/country/cuba
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'cuba.blg'
+[44] biber-darwin:340> INFO - === Sun May 11, 2025, 16:43:54
+[54] Biber.pm:419> INFO - Reading 'cuba.bcf'
+[108] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[119] Biber.pm:4419> INFO - Processing section 0
+[124] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[125] bibtex.pm:1713> INFO - LaTeX decoding ...
+[128] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[162] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[162] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[169] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[169] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[169] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[170] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[176] bbl.pm:660> INFO - Writing 'cuba.bbl' with encoding 'UTF-8'
+[183] bbl.pm:763> INFO - Output to cuba.bbl
