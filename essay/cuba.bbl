@@ -19,6 +19,60 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{chi2022microestimates}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d4b4ef4cc48aebba7967ace9c91b0842}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Guanghua},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31b601ca0becd0697b1237e03ec8427f}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=225d0c64bc582e380c1334293c4db1a3}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Sourav},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c903c72cf88893a6fa586bb74bcdb41}{%
+           family={Blumenstock},
+           familyi={B\bibinitperiod},
+           given={Joshua\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{36562130c22efb1c228bc73014879354}
+      \strng{fullhash}{de7f657e74663fa9e04b259f66632611}
+      \strng{bibnamehash}{de7f657e74663fa9e04b259f66632611}
+      \strng{authorbibnamehash}{de7f657e74663fa9e04b259f66632611}
+      \strng{authornamehash}{36562130c22efb1c228bc73014879354}
+      \strng{authorfullhash}{de7f657e74663fa9e04b259f66632611}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{3}
+      \field{title}{Microestimates of wealth for all low- and middle-income countries}
+      \field{volume}{119}
+      \field{year}{2022}
+      \field{pages}{e2113658119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2113658119
+      \endverb
+    \endentry
     \entry{gelman2006prior}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
@@ -217,6 +271,60 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{chi2022microestimates}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d4b4ef4cc48aebba7967ace9c91b0842}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Guanghua},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31b601ca0becd0697b1237e03ec8427f}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=225d0c64bc582e380c1334293c4db1a3}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Sourav},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c903c72cf88893a6fa586bb74bcdb41}{%
+           family={Blumenstock},
+           familyi={B\bibinitperiod},
+           given={Joshua\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{36562130c22efb1c228bc73014879354}
+      \strng{fullhash}{de7f657e74663fa9e04b259f66632611}
+      \strng{bibnamehash}{de7f657e74663fa9e04b259f66632611}
+      \strng{authorbibnamehash}{de7f657e74663fa9e04b259f66632611}
+      \strng{authornamehash}{36562130c22efb1c228bc73014879354}
+      \strng{authorfullhash}{de7f657e74663fa9e04b259f66632611}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{3}
+      \field{title}{Microestimates of wealth for all low- and middle-income countries}
+      \field{volume}{119}
+      \field{year}{2022}
+      \field{pages}{e2113658119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2113658119
+      \endverb
+    \endentry
     \entry{gelman2006prior}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%

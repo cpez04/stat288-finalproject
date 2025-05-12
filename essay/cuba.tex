@@ -261,21 +261,58 @@ One interesting observation is that, contrary to the country-wide averages, the 
 \section{Cross‑Country Validation: Dominican Republic}
 \label{sec:validation}
 
-Explain why chosen (similar geography, available poverty stats). Summarize correlation between latent~$z$ and ground‑truth poverty/GDP.
+To assess the external validity of my latent economic activity model, I now conduct a cross-country comparison using the Dominican Republic (DR) as a benchmark. The DR was chosen for three main reasons: (1) it shares geographic, environmental, and developmental similarities with Cuba, making it a reasonable comparison case; (2) it has better coverage of socioeconomic statistics and independent validation datasets; and (3) high-resolution data on wealth is publicly available, allowing spatially granular evaluation of the model outputs.
+
+For validation, I use Meta's \textit{Relative Wealth Index} (RWI), a dataset of wealth microestimates for 93 low- and middle-income countries (Cuba is not included!). The RWI is built from a combination of de-identified mobile phone connectivity data, satellite imagery, and machine learning techniques, and provides estimates of relative household wealth at a 2.4 km resolution across the DR \parencite{chi2022microestimates}. This data is independent of the three proxies used in my model, making the RWI an ideal source of ground-truth comparison.
+
+To compare with my model, I first apply the same Bayesian latent variable framework to the DR using the three aligned raster proxies. After aggregating to the four different grid sizes and estimating the posterior mean latent index \( z \), I map each RWI location's latitude and longitude to its corresponding coarse cell. Each RWI data point is then assigned the model-estimated \( z \) value at its location. After filtering to points with both a valid RWI and \( z \), I calculate the Pearson correlation between the two series. The results are shown below in Figure \ref{fig:rwi_validation}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{/Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png}
+  \caption{Comparison of model-estimated latent activity ($z$) with Meta’s Relative Wealth Index (RWI) across spatial resolutions.}
+  \label{fig:rwi_validation}
+\end{figure}
+
+Overall, the validation results show a consistent positive correlation between the model's estimated latent economic activity and the RWI across all spatial resolutions. At a 5 km resolution, the correlation is strongest at $r = 0.56$. But as the resolution becomes coarser, the correlation gradually weakens, from $r = 0.51$ at both 10 km and 15 km, down to $r = 0.45$ at 20 km. This trend reflects the expected trade-off: coarser grids average over heterogeneous areas and smooth out localized wealth differences. Nevertheless, the moderate correlation even at 20 km affirms that the model captures meaningful economic signals. 
+
+Another interesting observation is the increasing hetereoskedasticity at finer spatial resolutions, particularly at 5 km and 10 km. While the strongest correlation is at 5 km, the spread of $z$ values is noticeably wider at higher RWI levels, suggesting that the model is more variable in wealthier areas. This does match what we observe with our model's posterior standard deviation in wealthier areas like Greater Havana. 
+
+
+
+
 
 % ---------- 8. Discussion ----------
-\section{Discussion and Limitations}
+\section{Conclusion}
 \label{sec:discussion}
 
-Reflect on proxy limitations, identifiability, scale issues, potential future work (spatially varying coefficients, additional proxies, time‑series). \\
+In this project, I developed a Bayesian hierarchial model to infer a latent economic index of economic activity in Cuba from multiple proxy measurements. By combining nighttime light intensity, vegetation greener, and raod density within a single latent variable framework, I constructed a fine-grained economic activity map that is spatially coherent and plausible. The inclusion of an ICAR prior in the model enabled neighboring areas to have similar latent values, yielding smooth transitions that align with Cuba's known geographic and urban-rural patterns. 
 
+Importantly, we externally validated the approach. When applied to the DR, the inferred latent index showed a strong correspondence with Meta's RWI, a benchmark of local wealth. This validation in a data-rich context lends credibility to our Cuba results.
 
-\noindent \textbf{Word Count:} 1575
+Despite these promising results, several limitations of our approach need to be acknowledged. First, the estimated latent economic index is on a relative scale; it is not anchored to absolut economic units like GDP or income, which means the values indicate relative differences but not the actual size of economic output. Second, our proxy data coverage is limited: nighttime lights, vegetation, and road density each capture only certain facets of economic activity, so sectors outside their scope (for example, informal economies) may not be well represented. Additionally, the use of a spatial smoothing prior introduces the risk of spatial confounding and potential over-smoothing.
+
+Future work could include: calibrating the latent index against ground-truth economic data where available, so that the index can be translated into absolute economic terms; incorporating additional or alternative proxies, such as mobile phone usage patterns, and detailed land use types, to broaden the evidence base for economic activity and improve coverage of hard-to-measure sectors; and finally, refining the model itself - perhaps allowing spatially varying proxy coefficients to account for regional differences. 
+
+\noindent \textbf{Word Count:} 2559
 
 \newpage
 
-% ---------- References ----------
 
 \printbibliography
 
+\section*{Appendix: Code}
+\label{appendix:code}
+
+All code and data processing scripts used to generate the results in this paper are available at the following GitHub repository:
+
+\begin{center}
+\href{https://github.com/yourusername/cuba-latent-economy}{\texttt{github.com/yourusername/cuba-latent-economy}}
+\end{center}
+
+To reproduce the results, please clone the repository and follow the instructions provided in the README.
+
 \end{document}
+
+
+
