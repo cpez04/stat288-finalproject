@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  12 MAY 2025 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  13 MAY 2025 00:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,76 +864,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.3974pt too wide) in paragraph at lines 56--57
-[]\OT1/cmr/bx/n/12 Road Den-sity: \OT1/cmr/m/n/12 Mea-sures the den-sity of roads, re-flect-ing in-fras-truc-ture. Well-connected
- []
-
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3]
-Overfull \hbox (11.8889pt too wide) in paragraph at lines 154--155
- [][] 
- []
-
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png, id=112, 681.5061pt x 426.393pt>
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3]
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png, id=103, 681.5061pt x 426.393pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png  used on input line 166.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png  used on input line 167.
 (pdftex.def)             Requested size: 281.85587pt x 176.34471pt.
-[4]
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png, id=124, 685.8423pt x 425.6703pt>
+ [4 </Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png, id=116, 685.8423pt x 425.6703pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>
 Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png  used on input line 177.
 (pdftex.def)             Requested size: 281.85587pt x 174.94164pt.
- [5 </Users/chrisperez/Desktop/stat288-finalproject/images/fig1.png> </Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png, id=133, 686.565pt x 491.436pt>
+</Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png, id=118, 686.565pt x 491.436pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png  used on input line 190.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png  used on input line 189.
 (pdftex.def)             Requested size: 375.80544pt x 268.99336pt.
- [6 </Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png, id=140, 1076.1003pt x 320.8788pt>
+ [5 </Users/chrisperez/Desktop/stat288-finalproject/images/fig2.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png, id=126, 1076.1003pt x 320.8788pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png  used on input line 225.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png  used on input line 214.
 (pdftex.def)             Requested size: 469.75502pt x 140.07076pt.
- [7]
-</Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png, id=146, 1719.42375pt x 591.20876pt>
+ [6 </Users/chrisperez/Desktop/stat288-finalproject/images/fig_3_post_diagnostics.png>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png, id=132, 1719.42375pt x 591.20876pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png  used on input line 231.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png  used on input line 220.
 (pdftex.def)             Requested size: 469.75502pt x 161.5139pt.
-</Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png, id=148, 2442.12375pt x 629.35126pt>
-File: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png Graphic file (type png)
-<use /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png  used on input line 243.
-(pdftex.def)             Requested size: 469.75502pt x 121.05685pt.
- [8 </Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png> </Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png (PNG copy)> </Users/chrisperez/Desktop/stat288-finalproject/images/combined_maps.png (PNG copy)>]
-</Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png, id=159, 760.64175pt x 715.11165pt>
+ [7 </Users/chrisperez/Desktop/stat288-finalproject/images/multires_cuba.png> </Users/chrisperez/Desktop/stat288-finalproject/images/combined_trace_plots.png (PNG copy)>]
+</Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png, id=144, 760.64175pt x 715.11165pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png  used on input line 268.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png  used on input line 237.
 (pdftex.def)             Requested size: 328.82707pt x 309.13968pt.
- [9] [10 </Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png>] [11] [12] (./cuba.aux)
+ [8 </Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png>] [9] [10] (./cuba.aux)
 Package rerunfilecheck Info: File `cuba.out' has not changed.
-(rerunfilecheck)             Checksum: 132FD26459DC1383C5DED088D5618DC4;2937.
+(rerunfilecheck)             Checksum: E8010E12928F8DC2A5189F5939FE9D26;2472.
 Package logreq Info: Writing requests to 'cuba.run.xml'.
 \openout1 = `cuba.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30651 strings out of 476025
- 589545 string characters out of 5790017
- 1866388 words of memory out of 5000000
- 50621 multiletter control sequences out of 15000+600000
+ 30642 strings out of 476025
+ 589205 string characters out of 5790017
+ 1863388 words of memory out of 5000000
+ 50617 multiletter control sequences out of 15000+600000
  523758 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,80p,970b,5044s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,80p,791b,5044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on cuba.pdf (12 pages, 2842717 bytes).
+Output written on cuba.pdf (10 pages, 2744406 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,13 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Data Sources}{2}{section.2}%
-\contentsline {section}{\numberline {3}Bayesian Hierarchical Model}{3}{section.3}%
+\contentsline {section}{\numberline {2}Data and Preprocessing}{2}{section.2}%
+\contentsline {section}{\numberline {3}Bayesian Hierarchical Model}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Observation Model}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Identifiability Constraint}{3}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Spatial ICAR Prior and Neighborhood Smoothing}{3}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Weakly Informative Priors}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Weakly Informative Priors}{3}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Posterior Results for Cuba (15 km Grid)}{4}{section.4}%
-\contentsline {section}{\numberline {5}Multi‑Resolution Analysis}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Variance versus Uncertainty}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Proxy Coefficients across Resolutions}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Spatial Smoothness}{7}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Zoom-in Comparisons: Greater Havana and Camagüey}{8}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Cross‑Country Validation: Dominican Republic}{9}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{10}{section.7}%
+\contentsline {section}{\numberline {5}Multi‑Resolution Analysis}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Proxy Coefficients across Resolutions}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Spatial Smoothness}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Cross-Country Validation: Dominican Republic}{7}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{9}{section.7}%

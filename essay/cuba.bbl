@@ -73,6 +73,57 @@
       \verb 10.1073/pnas.2113658119
       \endverb
     \endentry
+    \entry{duncan2017spatial}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=680f74b9e0976808b757328cda168f31}{%
+           family={Duncan},
+           familyi={D\bibinitperiod},
+           given={Emma\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=290c19b7a7db197ae8e5bb7266ac0950}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3a087127366d24b2d0ab735d2818c16}{%
+           family={Mengersen},
+           familyi={M\bibinitperiod},
+           given={Kerrie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c42db2afd1420f8ea640eefbf81a914}
+      \strng{fullhash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{bibnamehash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{authorbibnamehash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{authornamehash}{3c42db2afd1420f8ea640eefbf81a914}
+      \strng{authorfullhash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Health Geographics}
+      \field{number}{1}
+      \field{title}{Spatial smoothing in Bayesian models: a comparison of weights matrix specifications and their impact on inference}
+      \field{volume}{16}
+      \field{year}{2017}
+      \field{pages}{47}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12942-017-0120-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12942-017-0120-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12942-017-0120-x
+      \endverb
+    \endentry
     \entry{gelman2006prior}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
@@ -323,6 +374,57 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1073/pnas.2113658119
+      \endverb
+    \endentry
+    \entry{duncan2017spatial}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=680f74b9e0976808b757328cda168f31}{%
+           family={Duncan},
+           familyi={D\bibinitperiod},
+           given={Emma\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=290c19b7a7db197ae8e5bb7266ac0950}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3a087127366d24b2d0ab735d2818c16}{%
+           family={Mengersen},
+           familyi={M\bibinitperiod},
+           given={Kerrie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c42db2afd1420f8ea640eefbf81a914}
+      \strng{fullhash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{bibnamehash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{authorbibnamehash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \strng{authornamehash}{3c42db2afd1420f8ea640eefbf81a914}
+      \strng{authorfullhash}{a626251b0c63bdd29890bb0d39aeeffc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Health Geographics}
+      \field{number}{1}
+      \field{title}{Spatial smoothing in Bayesian models: a comparison of weights matrix specifications and their impact on inference}
+      \field{volume}{16}
+      \field{year}{2017}
+      \field{pages}{47}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12942-017-0120-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12942-017-0120-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12942-017-0120-x
       \endverb
     \endentry
     \entry{gelman2006prior}{article}{}

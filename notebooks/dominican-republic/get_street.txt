@@ -1,38 +1,29 @@
-// 1.  Define Dominican Republic boundary
 var dr = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017')
             .filter(ee.Filter.eq('country_na', 'Dominican Republic'));
 Map.centerObject(dr, 7);
 Map.addLayer(dr, {}, 'Dominican Republic');
 
-// 2. Load your uploaded OSM road data
 var roads = ee.FeatureCollection('projects/prompt-tester-454904/assets/gis_osm_roads_free_1')
                .filterBounds(dr);
 
-// Optional: visualize the raw road features
 Map.addLayer(roads, {color: 'blue'}, 'Uploaded OSM Roads');
 
-// 3. Add a constant to rasterize
 var roads_with_value = roads.map(function(feature) {
   return feature.set({'presence': 1});
 });
 
-// 4. Rasterize road presence
-var road_raster = roads_with_value.reduceToImage({
+]var road_raster = roads_with_value.reduceToImage({
   properties: ['presence'],
   reducer: ee.Reducer.first()
 }).clip(dr);
 
-// Debug: visualize binary presence
-Map.addLayer(road_raster, {min: 0, max: 1, palette: ['white', 'black']}, 'Road Presence');
+]Map.addLayer(road_raster, {min: 0, max: 1, palette: ['white', 'black']}, 'Road Presence');
 
-// 5. Convolve with 1km kernel to estimate road density
 var kernel = ee.Kernel.circle({radius: 1000, units: 'meters'});
 var road_density = road_raster.convolve(kernel);
 
-// Visualize the density heatmap
 Map.addLayer(road_density, {min: 0, max: 30, palette: ['white', 'red']}, 'Road Density');
 
-// 6.  Export to Google Drive
 Export.image.toDrive({
   image: road_density,
   description: 'DR_OSM_RoadDensity_2024',

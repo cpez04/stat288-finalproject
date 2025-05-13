@@ -1,4 +1,4 @@
-# StaInferring Cuba's Hidden Economy: A Bayesian Latent Variable Model
+# Inferring Cuba's Hidden Economy: A Bayesian Latent Variable Model
 
 Hi there! This repo contains an analysis of economic indicators and latent economic models for Cuba and the Dominican Republic (DR), using various geospatial and economic data sources.
 
