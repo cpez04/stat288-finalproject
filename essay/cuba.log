@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  12 MAY 2025 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  12 MAY 2025 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,7 +912,7 @@ Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/c
 </Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png, id=159, 760.64175pt x 715.11165pt>
 File: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png Graphic file (type png)
 <use /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png>
-Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png  used on input line 272.
+Package pdftex.def Info: /Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png  used on input line 268.
 (pdftex.def)             Requested size: 328.82707pt x 309.13968pt.
  [9] [10 </Users/chrisperez/Desktop/stat288-finalproject/images/rwi_vs_z_corr.png>] [11] [12] (./cuba.aux)
 Package rerunfilecheck Info: File `cuba.out' has not changed.
@@ -930,7 +930,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,8n,80p,970b,5044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on cuba.pdf (12 pages, 2841695 bytes).
+Output written on cuba.pdf (12 pages, 2842717 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
